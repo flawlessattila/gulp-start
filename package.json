@@ -1,7 +1,7 @@
 {
     "scripts": {
-        "dev": "gulp --gulpfile=gulp/gulpfile.babel.js --development",
-        "prod": "gulp --gulpfile=gulp/gulpfile.babel.js --production"
+        "dev": "gulp --gulpfile=gulp/gulpfile.js --development",
+        "prod": "gulp --gulpfile=gulp/gulpfile.js --production"
     },
     "type": "module",
     "devDependencies": {
