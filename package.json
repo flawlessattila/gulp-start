@@ -1,0 +1,33 @@
+{
+    "scripts": {
+        "dev": "gulp --gulpfile=gulp/gulpfile.babel.js --development",
+        "prod": "gulp --gulpfile=gulp/gulpfile.babel.js --production"
+    },
+    "type": "module",
+    "devDependencies": {
+        "@babel/core": "^7.23.9",
+        "@babel/preset-env": "^7.23.9",
+        "@babel/register": "^7.23.7",
+        "css-loader": "^6.10.0",
+        "del": "^7.1.0",
+        "glob": "^10.3.10",
+        "gulp": "^4.0.2",
+        "gulp-file-include": "^2.3.0",
+        "gulp-format-html": "^2.3.0",
+        "gulp-mode": "^1.1.0",
+        "gulp-plumber": "^1.2.1",
+        "gulp-sass": "^5.1.0",
+        "gulp-server-livereload": "^1.9.2",
+        "gulp-sourcemaps": "^3.0.0",
+        "gulp-ttf2woff2": "^4.0.1",
+        "sass": "^1.70.0",
+        "style-loader": "^3.3.4",
+        "svg-inline-loader": "^0.8.2",
+        "webpack-stream": "^7.0.0"
+    },
+    "babel": {
+        "presets": [
+            "@babel/preset-env"
+        ]
+    }
+}
