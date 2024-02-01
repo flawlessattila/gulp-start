@@ -1,2 +1,7 @@
 @import './base/__reset';
 @import './base/__normalize';
+@import './base/__fonts';
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
