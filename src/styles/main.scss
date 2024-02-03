@@ -1,7 +1,7 @@
-@import './base/__reset';
-@import './base/__normalize';
-@import './base/__fonts';
-@import './base/__header';
+@import './base/reset';
+@import './base/normalize';
+@import './base/fonts';
+@import './components/header';
 
 .logo {
     color: #FFD7D6;
